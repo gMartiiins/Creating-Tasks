@@ -136,7 +136,6 @@ export function AbaTarefas() {
                                     />
                                     
                                     <button 
-                                        type='submit' 
                                         className={styles.buttonTarefa}
                                         onClick={(event) => usuarioTarefaConcluida(event, mostrarTarefas)}>
                                         Concluir
