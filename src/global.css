@@ -1,0 +1,35 @@
+:root {
+    --white: #fff;
+    --green-100: #2c2c2c;
+    --green-200:#181818;
+    --green-300: #343434;
+    --green-400: #484747;
+    --green-450: #615d5d;
+    --green-500: #00569d;
+    --green-600: #00839d;
+}
+
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body {
+    background: var(--green-100);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
